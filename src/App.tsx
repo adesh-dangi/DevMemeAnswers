@@ -1444,7 +1444,24 @@ function App() {
             <p className="text-purple-200 mb-4">
               Made with ❤️ and excessive amounts of coffee for developers, by developers
             </p>
-            <div className="flex justify-center space-x-6">
+            
+            {/* Built with Bolt.new Badge */}
+            <div className="flex justify-center mb-6">
+              <a 
+                href="https://bolt.new" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="group inline-flex items-center space-x-3 bg-gradient-to-r from-orange-500 to-red-500 hover:from-orange-600 hover:to-red-600 text-white px-6 py-3 rounded-full font-semibold transition-all duration-300 hover:scale-105 shadow-lg hover:shadow-xl"
+              >
+                <div className="bg-white/20 p-2 rounded-full">
+                  <Zap className="h-5 w-5" />
+                </div>
+                <span className="text-lg">Built with Bolt.new</span>
+                <ArrowRight className="h-4 w-4 group-hover:translate-x-1 transition-transform" />
+              </a>
+            </div>
+            
+            <div className="flex justify-center space-x-6 mb-4">
               <a href="#" className="text-purple-300 hover:text-white transition-colors">
                 <Github className="h-5 w-5" />
               </a>
