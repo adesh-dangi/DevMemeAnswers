@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Terminal, Code, Zap, Coffee, Github, Twitter, Heart, ArrowRight, Copy, CheckCircle, Search, Filter } from 'lucide-react';
-
+import { BoltBadge } from './BoltBadge';
 interface Solution {
   id: string;
   title: string;
@@ -1226,6 +1226,7 @@ function App() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-purple-900 via-blue-900 to-indigo-900">
       {/* Header */}
+      <BoltBadge />
       <header className="relative overflow-hidden">
         <div className="absolute inset-0 bg-black opacity-20"></div>
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
