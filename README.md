@@ -1,8 +1,11 @@
----
-
 # 😎 DevMemeAnswers
-
 A fun, one-page project where classic developer questions meet real, AI-powered answers — with meme-style humor!
+<div>
+<img src="https://github.com/adesh-dangi/DevMemeAnswers/blob/main/devmeme.png?raw=true" alt="Dev Meme Banner" width="800" />
+<a href="https://bolt.new/" target="_blank" >
+    <img src="https://github.com/adesh-dangi/DevMemeAnswers/blob/main/black_circle_360x360.png?raw=true" alt="Bolt Badge" width="80" />
+</a>
+</div>
 
 ## 🚀 Live Demo
 
